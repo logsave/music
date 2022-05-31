@@ -40,7 +40,7 @@ class Musics {
                         fileName: user_music_list[i],
                         title: user_music_list[i].split("-")[1].split(".")[0],
                         singer: user_music_list[i].split("-")[0],
-                        songUrl: 'https://cdn.jsdelivr.net/gh/logsave/music_data@latest/songs/' + user_music_list[i],
+                        songUrl: 'https://logsave.github.io/music_data/songs/' + user_music_list[i],
                         imageUrl: 'https://musicsharing.github.io/static/music_data/images/' + bgp[Math.floor(Math.random() * bgp.length)]
                     })
                 } else {
@@ -48,7 +48,7 @@ class Musics {
                         fileName: user_music_list[i],
                         title: user_music_list[i].split(".")[0],
                         singer: "未知",
-                        songUrl: 'https://cdn.jsdelivr.net/gh/logsave/music_data@latest/songs/' + user_music_list[i],
+                        songUrl: 'https://logsave.github.io/music_data/songs/' + user_music_list[i],
                         imageUrl: 'https://musicsharing.github.io/static/music_data/images/' + bgp[Math.floor(Math.random() * bgp.length)]
                     })
                 }
